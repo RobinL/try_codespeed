@@ -5,7 +5,7 @@ from splink.duckdb.linker import DuckDBLinker
 @pytest.mark.benchmark
 def test_profile(historical_50k_df):
 
-    1 + 1
+    2+2
 
 
 @pytest.mark.benchmark
@@ -20,7 +20,7 @@ def test_profile_1000(historical_50k_df):
         ["first_name", "postcode_fake", "substr(dob, 1,4)"], top_n=10, bottom_n=5
     )
 
-    1 + 1
+    2+2
 
 
 @pytest.mark.benchmark
@@ -35,4 +35,4 @@ def test_profile_50k(historical_50k_df):
         ["first_name", "postcode_fake", "substr(dob, 1,4)"], top_n=10, bottom_n=5
     )
 
-    1 + 1
+    2+2
