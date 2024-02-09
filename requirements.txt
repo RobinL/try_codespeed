@@ -1,0 +1,5 @@
+pytest==8.0.0
+pytest-codspeed==2.2.0
+duckdb==0.9.3.dev3968
+splink==3.9.12
+pyarrow==15.0.0
