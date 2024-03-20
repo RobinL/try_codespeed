@@ -20,7 +20,7 @@ def test_profile_1000(historical_50k_df):
         ["first_name", "postcode_fake", "substr(dob, 1,4)"], top_n=10, bottom_n=5
     )
 
-    1 + 1
+    1 + 2
 
 
 @pytest.mark.benchmark
